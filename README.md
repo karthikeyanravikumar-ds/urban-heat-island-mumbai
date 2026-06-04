@@ -1,72 +1,126 @@
-🌡️ Analysis of Urban Temperature Trends & Indications of UHI in Mumbai
+# 🌡️ Urban Temperature Trends & Urban Heat Island (UHI) Analysis in Mumbai
 
-A Data Science Project submitted in partial fulfillment of the requirements for the Bachelor of Science (Data Science) — Semester IV
+## Overview
 
-Author: Karthikeyan Ravikumar
-Institute: Vidyalankar School of Information Technology, Mumbai
-Academic Year: 2025–2026
-SDG Alignment: 🏙️ SDG 11 — Sustainable Cities and Communities
+This project analyzes over 70 years of historical temperature data from Mumbai (1951–2024) to identify long-term climate trends and investigate potential indicators of the Urban Heat Island (UHI) effect.
 
-📌 Abstract
+Using Exploratory Data Analysis (EDA), the study examines changes in maximum and minimum temperatures, seasonal patterns, and extreme heat events to understand how urbanization may be influencing the city's local climate.
 
-This project analyzes long-term temperature trends in Mumbai using historical climate data spanning 1951 to 2024. The study focuses on identifying temporal patterns in maximum and minimum temperatures to understand urban climate behavior.
+---
 
-Through structured Exploratory Data Analysis (EDA), the project highlights rising temperature trends, seasonal consistency, and increasing nighttime temperatures — all of which are potential indicators of the Urban Heat Island (UHI) effect.
+## 🎯 Project Goals
 
-The findings suggest that rapid urbanization, land-use changes, and reduced green cover may be influencing local temperature dynamics.
+* Analyze long-term temperature trends in Mumbai
+* Study variations in maximum and minimum temperatures
+* Explore seasonal and yearly climate patterns
+* Identify potential indicators of the Urban Heat Island (UHI) effect
+* Generate visual insights from historical climate data
 
-🎯 Objectives
-#	Objective
-1	Analyze long-term temperature trends in Mumbai
-2	Study variations in maximum and minimum temperatures
-3	Examine seasonal and yearly temperature patterns
-4	Identify indicators of Urban Heat Island (UHI) effect
-🔬 Methodology
-Method	Purpose
-Data Collection	Historical daily temperature dataset (1951–2024)
-Data Cleaning	Handling missing values, mixed date formats
-Feature Engineering	Creating mean temperature, year, month
-Exploratory Data Analysis (EDA)	Trend and pattern identification
-Visualization	Graphical representation of temperature trends
-📊 Dataset Information
+---
 
-Dataset: Mumbai Daily Temperature Data (1951–2024)
-Type: Time-Series Climate Data
+## 📊 Dataset
 
-📌 Features:
-📅 Date
-🌡️ Maximum Temperature
-🌡️ Minimum Temperature
-🌧️ Rainfall (if available)
+**Dataset:** Mumbai Daily Temperature Data (1951–2024)
 
-The dataset contains 70+ years of daily observations, enabling long-term climate analysis.
+### Features
 
-📊 Analysis Visualizations
-📈 Yearly Temperature Trend
+* 📅 Date
+* 🌡️ Maximum Temperature
+* 🌡️ Minimum Temperature
+* 🌧️ Rainfall (where available)
 
-Shows long-term increase in average temperature over decades.
+The dataset contains over seven decades of daily climate observations, making it suitable for long-term trend analysis.
 
-📆 Monthly Seasonal Pattern
+---
 
-Highlights consistent seasonal temperature variations across months.
+## 🔬 Methodology
 
-🔥 Heatwave Frequency Trend
+### Data Processing
 
-Indicates increasing frequency of extreme temperature events.
+* Data cleaning and preprocessing
+* Handling missing values
+* Standardizing date formats
 
-📊 Key Findings
-📈 Gradual increase in temperature observed over decades
-🌙 Minimum temperatures rising faster, indicating reduced nighttime cooling
-☀️ Seasonal patterns remain consistent across years
-🌧️ Rainfall shows moderate influence on temperature variation
-🌆 Results indicate possible presence of Urban Heat Island (UHI) effect
-💡 Recommendations
-Integrate spatial (ward-level) data for deeper analysis
-Compare urban vs rural temperature trends
-Increase urban green cover and cooling strategies
-Use data-driven approaches for climate monitoring
-Develop interactive dashboards for public awareness
-🗂️ Repository Structure
+### Feature Engineering
+
+* Extracting year and month
+* Calculating mean temperature
+* Creating aggregated yearly and monthly metrics
+
+### Exploratory Data Analysis (EDA)
+
+* Trend analysis
+* Seasonal pattern analysis
+* Heatwave frequency exploration
+* Temperature distribution analysis
+
+### Visualization
+
+* Time-series trend plots
+* Monthly temperature patterns
+* Heatwave occurrence trends
+* Comparative climate charts
+
+---
+
+## 📈 Key Visualizations
+
+### Yearly Temperature Trend
+
+Analyzes long-term changes in average temperature across decades.
+
+### Monthly Seasonal Patterns
+
+Explores recurring temperature variations throughout the year.
+
+### Heatwave Frequency Analysis
+
+Tracks changes in the occurrence of extreme temperature events.
+
+---
+
+## 🔍 Key Findings
+
+* 📈 Average temperatures have gradually increased over the past several decades.
+* 🌙 Minimum temperatures are rising faster than maximum temperatures.
+* ☀️ Seasonal temperature cycles remain relatively consistent.
+* 🌧️ Rainfall exhibits moderate influence on temperature variation.
+* 🌆 Rising nighttime temperatures suggest potential Urban Heat Island (UHI) effects.
+
+---
+
+## 💡 Insights & Recommendations
+
+* Expand urban green spaces and tree cover.
+* Integrate ward-level spatial temperature datasets.
+* Compare urban and rural climate trends for stronger UHI validation.
+* Develop climate monitoring dashboards for public awareness.
+* Support data-driven urban planning and sustainability initiatives.
+
+---
+
+## ⚠️ Limitations
+
+* No ward-level or spatial temperature data available.
+* No rural comparison dataset included.
+* Analysis focuses on EDA and trend identification.
+* UHI indicators are observational and not conclusively validated.
+
+---
+
+## 🚀 Future Enhancements
+
+* 🌍 Geospatial analysis using GIS datasets
+* 🤖 Machine learning-based temperature forecasting
+* 📊 Interactive dashboards using Streamlit or Power BI
+* 🛰️ Satellite imagery integration
+* 🏙️ Urban vs. rural comparative climate studies
+
+---
+
+## 📂 Project Structure
+
+```text
 urban-temperature-uhi-analysis/
 │
 ├── notebooks/
@@ -80,26 +134,32 @@ urban-temperature-uhi-analysis/
 │   ├── monthly_pattern.png
 │   ├── heatwave_trend.png
 │
-└── README.md
-⚠️ Limitations
-❌ No ward-wise or spatial temperature data
-❌ No rural comparison for strong UHI validation
-❌ Analysis is EDA-based (no predictive modeling)
-🚀 Future Scope
-🌍 Integrate geospatial datasets (ward-level analysis)
-🤖 Apply machine learning models for prediction
-📊 Build interactive dashboards (Power BI / Streamlit)
-🌱 Perform urban vs rural comparative studies
-🔗 References & Resources
-Resource	Link
-India Meteorological Department	India Meteorological Department
-SDG 11 — UN	United Nations Sustainable Development Goals
-Climate Data Sources	Government & research datasets
-🏫 Institution
+├── README.md
+│
+└── requirements.txt
+```
 
-Vidyalankar School of Information Technology
-Department of Information Technology and Data Science
-Autonomous College affiliated to University of Mumbai
-Mumbai – 400037, Maharashtra
+---
 
-This project is part of the B.Sc. Data Science curriculum and was completed as an analytical study on urban climate trends and UHI indicators.
+## 🛠️ Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+
+---
+
+## 🌍 Impact
+
+Understanding urban temperature trends is essential for climate resilience, sustainable urban planning, and mitigating the impacts of increasing heat stress in rapidly growing cities.
+
+This project contributes toward data-driven approaches for building more sustainable and climate-resilient urban environments.
+
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
