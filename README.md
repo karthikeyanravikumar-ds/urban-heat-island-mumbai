@@ -79,6 +79,24 @@ Tracks changes in the occurrence of extreme temperature events.
 
 ---
 
+## 📈 Annual Maximum Temperature Trend (1951–2024)
+
+![Annual Maximum Temperature Trend](Mumbai%20Annual%20Max%20Temperature%20Trend%201951%E2%80%932024.png)
+
+## 🌡️ Maximum Temperature Analysis
+
+![Maximum Temperature Analysis](temp%20max.png)
+
+## 🌙 Minimum Temperature Analysis
+
+![Minimum Temperature Analysis](temp%20min.png)
+
+## 🌧️ Rainfall Analysis
+
+![Rainfall Analysis](rain.png)
+
+---
+
 ## 🔍 Key Findings
 
 * 📈 Average temperatures have gradually increased over the past several decades.
